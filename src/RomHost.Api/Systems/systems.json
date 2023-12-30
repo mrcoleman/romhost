@@ -1,0 +1,10 @@
+{
+    "snes":{
+        "Name": "Super Nintendo Entertainment System",
+        "ShortCode": "snes"
+    },
+    "nes":{
+        "Name": "Nintendo Entertainment System",
+        "ShortCode":"nes"
+    }
+}

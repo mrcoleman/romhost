@@ -11,5 +11,13 @@
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
-
+  <ItemGroup>
+    <ProjectReference Include="../RomHost.Models/RomHost.Models.csproj"/>
+    <Content Include="./Systems/systems.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <IncludeInPackage>true</IncludeInPackage>
+      <BuildAction>Content</BuildAction>
+      <CopyToOutput>true</CopyToOutput>
+    </Content>
+  </ItemGroup>
 </Project>
